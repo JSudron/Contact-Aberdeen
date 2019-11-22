@@ -40,7 +40,7 @@ Went for a dark look with contrasting bright colours to mimic the colours associ
 ## Technologies
 1. HTML
 2. CSS
-3. Bootstrap 
+3. Bootstrap (4.3.1)
 
 ## Features
 
