@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous:100,200,300,400,500,600,700|Source+Sans+Pro&display=swap:100,200,300,400,500,600,700');
+
+/*-----------------------COLOURS */
+
+/*-----------------------SPECIAL MARGINS/HEADINGS/TEXT */
+
+/*-----------------------NAVBAR */
+
+/*-----------------------HOME */
+
+/*-----------------------ABOUT */
+.container {
+    padding: 100px 140px;
+}
+
+.member-image {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+}
+
+.member-image:hover {
+    border-color: palegreen;
+}
+
+/*-----------------------EVENTS */
+
+/*-----------------------GALLERY */
+
+/*-----------------------CONTACT */
+
+/*-----------------------MEDIA QUERIES */
