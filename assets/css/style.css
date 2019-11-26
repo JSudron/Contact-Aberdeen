@@ -3,14 +3,26 @@
 /*-----------------------COLOURS */
 
 /*-----------------------SPECIAL MARGINS/HEADINGS/TEXT */
+.block-divider {
+    width: 100px;
+    color: whitesmoke;
+}
 
 /*-----------------------NAVBAR */
 
 /*-----------------------HOME */
 
 /*-----------------------ABOUT */
-.container {
-    padding: 100px 140px;
+.about-container {
+    padding: 20px 25px;
+}
+
+.about-container h1 {
+    font-family: 'Righteous', sans-serif;
+}
+
+.about-container p, h5 {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .member-image {
@@ -21,7 +33,7 @@
 }
 
 .member-image:hover {
-    border-color: palegreen;
+    background-color: whitesmoke;
 }
 
 /*-----------------------EVENTS */
