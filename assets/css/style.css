@@ -21,20 +21,22 @@
     font-family: 'Righteous', sans-serif;
 }
 
-.about-container p, h5 {
+.about-container p, h5{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 .member-image {
     border: 10px solid transparent;
     margin-bottom: 25px;
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: auto;
 }
 
 .member-image:hover {
     background-color: whitesmoke;
+    opacity: 0.7;
 }
+
 
 /*-----------------------EVENTS */
 
