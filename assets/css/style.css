@@ -12,15 +12,6 @@
 
 /*-----------------------HOME */
 
-/*-----------------------GALLERY */
-/* Carousel code from Bootstrap website with changes to the features made by myself in html & css */
-.gallery-container {
-    padding: 20px 25px;
-}
-
-.gallery-container h1 {
-    font-family: 'Righteous', sans-serif;
-}
 
 /*-----------------------ABOUT */
 /* Code learnt from tutorials with changes made by myself */
@@ -52,13 +43,40 @@
     background-color: #FF8457;
 }
 
+/*-----------------------GALLERY */
+/* Carousel code from Bootstrap website with changes to the features made by myself in html & css */
+.gallery-container {
+    padding: 20px 25px;
+}
+
+.gallery-container h1 {
+    font-family: 'Righteous', sans-serif;
+}
+
+.fa-chevron-circle-left {
+    color: #FCF5EE;
+    font-size: 30px;
+}
+
+.fa-chevron-circle-right {
+    color: #FCF5EE;
+    font-size: 30px;
+}
+
+.fa-chevron-circle-left:hover {
+    color: #FF8457;
+}
+
+.fa-chevron-circle-right:hover {
+    color: #FF8457;
+}
 
 
 /*-----------------------BOOKINGS */
 
 /*-----------------------MEDIA QUERIES */
 @media (min-width: 992px) {
-    .about-container h1 {
+    h1 {
         font-size: 100px;
     }
 }
