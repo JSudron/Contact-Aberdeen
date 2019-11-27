@@ -12,7 +12,18 @@
 
 /*-----------------------HOME */
 
+/*-----------------------GALLERY */
+/* Carousel code from Bootstrap website with changes to the features made by myself in html & css */
+.gallery-container {
+    padding: 20px 25px;
+}
+
+.gallery-container h1 {
+    font-family: 'Righteous', sans-serif;
+}
+
 /*-----------------------ABOUT */
+/* Code learnt from tutorials with changes made by myself */
 .about-container {
     padding: 20px 25px;
 }
@@ -21,27 +32,33 @@
     font-family: 'Righteous', sans-serif;
 }
 
-.about-container p, h5{
+.about-container p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.about-container h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
 .member-image {
-    border: 10px solid transparent;
-    margin-bottom: 25px;
+    border: 25px solid transparent;
+    margin-bottom: 30px;
     width: 100%;
     height: auto;
 }
 
 .member-image:hover {
-    background-color: whitesmoke;
-    opacity: 0.7;
+    background-color: #FF8457;
 }
 
 
-/*-----------------------EVENTS */
 
-/*-----------------------GALLERY */
-
-/*-----------------------CONTACT */
+/*-----------------------BOOKINGS */
 
 /*-----------------------MEDIA QUERIES */
+@media (min-width: 992px) {
+    .about-container h1 {
+        font-size: 100px;
+    }
+}
