@@ -73,6 +73,12 @@
 
 
 /*-----------------------BOOKINGS */
+.bookings-container {
+    padding: 20px 25px;
+}
+
+.bookings-container h1 {
+    font-family: 'Righteous', sans-serif;
 
 /*-----------------------MEDIA QUERIES */
 @media (min-width: 992px) {
