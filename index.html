@@ -105,11 +105,80 @@
 <div class="fluid container text-center bookings-container" id="bookings">
     <h1>BOOKINGS</h1>
         <hr class="block-divider">
-
+        <h5>Want to make a booking?<br>Interested in joining us?</h5>
+        <hr class="block-divider">
+    <div class="center-form">
+        <form>
+            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required /><br>
+            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="E-mail" required /><br>
+            <input type="phone" name="phone" id="phonenumber" class="form-control" placeholder="Phone Number" required /><br>
+            <textarea rows="6" name="request" id="request" class="form-control" placeholder="Request" required /></textarea><br>
+            <div class="form-row text-center">
+                <div class="col">
+                    <button type="submit" class="btn btn-secondary">Submit</button>
+                </div>
+            </div>
+    </div>
 </div>
-
-
 <!-----------------------FOOTER----------->
+<!----Code from tutorials but changes to the features made by myself in html & css---->
+
+<footer class="container-fluid">
+    <div id="footer-info" class="row">
+        <div class="col-sm-4">
+            <h6>EXODUS</h6>
+            <p class="inline-block address-links">
+                Thursdays 11pm-1am;
+                Belmont St, Aberdeen AB10 1JS
+                <a target="_blank" href="#">
+                    <i class="fa fa-map-pin" aria-hidden="true"></i>
+                    <span class="sr-only">Address Link</span>
+                </a>
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h6 cl>DOGHOUSE</h6>
+            <p class="inline-block address-links">
+                Saturday 11pm-3am;
+                5-9 Union St, Aberdeen AB11 5BU
+                <a target="_blank" href="#">
+                    <i class="fa fa-map-pin" aria-hidden="true"></i>
+                    <span class="sr-only">Address Link</span>
+                </a>
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h6>SOCIAL</h6>
+            <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fa fa-mixcloud" aria-hidden="true"></i>
+                        <span class="sr-only">Mixcloud</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fa fa-soundcloud" aria-hidden="true"></i>
+                        <span class="sr-only">Soundcloud</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
 
 <!-----------------------JAVASCRIPT----------->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

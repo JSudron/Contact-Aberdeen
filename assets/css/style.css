@@ -5,7 +5,30 @@
 /*-----------------------SPECIAL MARGINS/HEADINGS/TEXT */
 .block-divider {
     width: 100px;
-    color: whitesmoke;
+    color: #FCF5EE;
+}
+
+h1 {
+    font-family: 'Righteous', sans-serif;
+}
+
+h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+form {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 /*-----------------------NAVBAR */
@@ -19,19 +42,6 @@
     padding: 20px 25px;
 }
 
-.about-container h1 {
-    font-family: 'Righteous', sans-serif;
-}
-
-.about-container p {
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-.about-container h5 {
-    font-family: 'Source Sans Pro', sans-serif;
-    text-transform: uppercase;
-}
-
 .member-image {
     border: 25px solid transparent;
     margin-bottom: 30px;
@@ -41,16 +51,16 @@
 
 .member-image:hover {
     background-color: #FF8457;
+    transition: background-color 0.8s ease-in-out;
+    -moz-transition: background-color 0.8s ease-in-out;
+    -webkit-transition: background-color 0.8s ease-in-out;
+    -o-transition: background-color 0.8s ease-in-out;
 }
 
 /*-----------------------GALLERY */
 /* Carousel code from Bootstrap website with changes to the features made by myself in html & css */
 .gallery-container {
-    padding: 20px 25px;
-}
-
-.gallery-container h1 {
-    font-family: 'Righteous', sans-serif;
+    padding: 0px 0px 25px;
 }
 
 .fa-chevron-circle-left {
@@ -65,24 +75,119 @@
 
 .fa-chevron-circle-left:hover {
     color: #FF8457;
+    transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -webkit-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
 }
 
 .fa-chevron-circle-right:hover {
     color: #FF8457;
+    transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -webkit-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
 }
-
 
 /*-----------------------BOOKINGS */
 .bookings-container {
     padding: 20px 25px;
 }
 
-.bookings-container h1 {
-    font-family: 'Righteous', sans-serif;
+input[class=form-control]:focus{ 
+    border: #FF8457;
+    box-shadow: 0 0 30px #FF8457;    
+}
+
+textarea[class=form-control]:focus{ 
+    border: #FF8457;
+    box-shadow: 0 0 30px #FF8457;    
+}
+
+.btn-secondary {
+    background-color: #FF8457;
+    color: #FCF5EE;
+    border: transparent;
+}
+
+.btn-secondary:hover {
+    background-color: #FF8457;
+    color: #1A586C;
+    border: transparent;
+    transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -webkit-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
+}
+
+/*-----------------------FOOTER */
+
+footer {
+    min-height: 150px;
+    margin: 0;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #171717;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.social-links i:hover {
+    background: #FF8457;
+}   
+
+.address-links a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #171717;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.address-links i:hover {
+    background: #FF8457;
+}   
+
+#footer-info {
+    padding: 20px;
+    text-align: left;
+}
 
 /*-----------------------MEDIA QUERIES */
 @media (min-width: 992px) {
     h1 {
         font-size: 100px;
+    }
+}
+
+@media (min-width:321px), (max-width:768px) {
+    .member-image {
+        border: 15px solid transparent;
+        margin-bottom: 30px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width:321px), (max-width:768px) {
+    .address-links p{
+        font-size: 5px;
     }
 }
