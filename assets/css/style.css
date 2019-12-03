@@ -5,7 +5,7 @@
 /*-----------------------SPECIAL MARGINS/HEADINGS/TEXT */
 .block-divider {
     width: 100px;
-    color: #FCF5EE;
+    background-color: #FCF5EE;
 }
 
 h1 {
@@ -96,12 +96,14 @@ form {
 
 input[class=form-control]:focus{ 
     border: #FF8457;
-    box-shadow: 0 0 30px #FF8457;    
+    box-shadow: 0 0 5px #FF8457;    
+    
 }
 
 textarea[class=form-control]:focus{ 
     border: #FF8457;
-    box-shadow: 0 0 30px #FF8457;    
+    box-shadow: 0 0 5px #FF8457;    
+    outline: #FF8457; 
 }
 
 .btn-secondary {
@@ -127,12 +129,17 @@ footer {
     margin: 0;
 }
 
+#footer-info {
+    padding: 20px;
+    text-align: left;
+}
+
 .social-links li a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
+    border-radius: 30%;
+    font-size: 15px;
     line-height: 7px;
     text-align: center;
     color: #171717;
@@ -150,7 +157,7 @@ footer {
     width: 32px;
     height: 32px;
     padding: 12px 0;
-    border-radius: 50%;
+    border-radius: 30%;
     font-size: 13px;
     line-height: 7px;
     text-align: center;
@@ -165,10 +172,7 @@ footer {
     background: #FF8457;
 }   
 
-#footer-info {
-    padding: 20px;
-    text-align: left;
-}
+
 
 /*-----------------------MEDIA QUERIES */
 @media (min-width: 992px) {
@@ -183,11 +187,5 @@ footer {
         margin-bottom: 30px;
         width: 100%;
         height: auto;
-    }
-}
-
-@media (min-width:321px), (max-width:768px) {
-    .address-links p{
-        font-size: 5px;
     }
 }
