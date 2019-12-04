@@ -89,11 +89,19 @@ form {
     color: #FCF5EE;
 }
 
-.navbar-toggler {
-    cursor: pointer;
+.fa-bars:hover {
+    color: #FF8457;
+    text-decoration: none;
+    transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -webkit-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
 }
 
-
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
 
 /*-----------------------HOME */
 
@@ -234,12 +242,16 @@ footer {
     background: #FF8457;
 }   
 
-
-
 /*-----------------------MEDIA QUERIES */
 @media (min-width: 992px) {
     h1 {
-        font-size: 100px;
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 992px) {
+    .about-container {
+        margin-bottom: 100px;
     }
 }
 
