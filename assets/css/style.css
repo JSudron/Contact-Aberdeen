@@ -8,8 +8,18 @@
     background-color: #FCF5EE;
 }
 
+.nav-brand {
+    font-family: 'Righteous', sans-serif;
+    font-size: 2rem;
+}
+
+.nav-link {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 h1 {
     font-family: 'Righteous', sans-serif;
+    margin-top: 50px;
 }
 
 h5 {
@@ -32,6 +42,44 @@ form {
 }
 
 /*-----------------------NAVBAR */
+.navbar {
+    position: fixed;
+    overflow: hidden;
+    margin-bottom: 0;
+    width: 100vw;
+    background-color: #494949;
+    border: 0;
+    z-index: 1;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.nav-brand {
+    color: #FCF5EE;
+    text-decoration: none;
+}
+
+.nav-brand:hover {
+    color: #FF8457;
+    text-decoration: none;
+    transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -webkit-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
+}
+
+.fa-bars {
+    font-size: 2rem;
+    color: #FCF5EE;
+}
+
+.navbar-toggler {
+    cursor: pointer;
+}
+
+
 
 /*-----------------------HOME */
 
