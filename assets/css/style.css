@@ -1,8 +1,9 @@
+/*-----------------------FONT */
+
 @import url('https://fonts.googleapis.com/css?family=Righteous:100,200,300,400,500,600,700|Source+Sans+Pro&display=swap:100,200,300,400,500,600,700');
 
-/*-----------------------COLOURS */
-
 /*-----------------------SPECIAL MARGINS/HEADINGS/TEXT */
+
 .block-divider {
     width: 100px;
     background-color: #FCF5EE;
@@ -42,6 +43,8 @@ form {
 }
 
 /*-----------------------NAVBAR */
+/* Navbar code from mdbootstrap.com & tutorials with changes to the features made by myself in html & css */
+
 .navbar {
     position: fixed;
     overflow: hidden;
@@ -105,6 +108,8 @@ form {
   }
 
 /*-----------------------HOME */
+/* Code learnt from tutorials & 'HTML & CSS design and build websites" by Jon Duckett */
+
 .header-image {
   display: flex;  
   background-image: url("/assets/images/bw-audience.jpg");
@@ -117,6 +122,7 @@ form {
 
 /*-----------------------ABOUT */
 /* Code learnt from tutorials with changes made by myself */
+
 .about-container {
     padding: 20px 25px;
 }
@@ -137,7 +143,8 @@ form {
 }
 
 /*-----------------------GALLERY */
-/* Carousel code from Bootstrap website with changes to the features made by myself in html & css */
+/* Carousel code from getbootstrap.com with changes to the features made by myself in html & css */
+
 .gallery-container {
     padding: 0px 0px 25px;
 }
@@ -169,6 +176,8 @@ form {
 }
 
 /*-----------------------BOOKINGS */
+/* Code from tutorials but changes to the features made by myself in html & css */
+
 .bookings-container {
     padding: 20px 25px;
 }
@@ -202,10 +211,14 @@ textarea[class=form-control]:focus{
 }
 
 /*-----------------------FOOTER */
+/* Code from tutorials but changes to the features made by myself in html & css */
 
 footer {
     min-height: 150px;
     margin: 0;
+    background-color: #494949;
+    color: #FCF5EE;
+    opacity: 0.8;
 }
 
 #footer-info {
@@ -221,7 +234,7 @@ footer {
     font-size: 15px;
     line-height: 7px;
     text-align: center;
-    color: #171717;
+    color: #FCF5EE;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -240,7 +253,7 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #171717;
+    color: #FCF5EE;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -252,6 +265,8 @@ footer {
 }   
 
 /*-----------------------MEDIA QUERIES */
+/* Code from tutorials but changes to the features made by myself in html & css */
+
 @media (min-width: 992px) {
     h1 {
         font-size: 60px;

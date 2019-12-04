@@ -11,32 +11,39 @@
     <title>Contact - Aberdeen</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="0"> <!--Scrollspy added from w3schools.com-->
+
 <!-----------------------NAVBAR----------->
+<!----Navbar code from mdbootstrap.com & tutorials with changes to the features made by myself in html & css---->
+
 <nav class="navbar">
-    <a href="/" class="nav-brand">Contact</a>
+    <a class="nav-brand" href="https://jsudron.github.io/Contact-Aberdeen/">Contact</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Hamburger menu"><span class="hamburger-menu">
     <i class="fa fa-bars"></i></span></button>
     <div class="collapse navbar-collapse" id="navbar-content">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Gallery<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#gallery">Gallery<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Bookings<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#bookings">Bookings<span class="sr-only">(current)</span></a>
             </li>
         </ul>
     </div>
 </nav>
+
 <!-----------------------HEADER----------->
+<!----Code learnt from tutorials & 'HTML & CSS design and build websites" by Jon Duckett---->
+
 <div class="bg header-image">
 </div>
+
 <!-----------------------ABOUT----------->
 <!----Code learnt from tutorials with changes made by myself---->
 
@@ -143,6 +150,7 @@
             </div>
     </div>
 </div>
+
 <!-----------------------FOOTER----------->
 <!----Code from tutorials but changes to the features made by myself in html & css---->
 
@@ -201,7 +209,6 @@
         </div>
     </div>
 </footer>
-
 
 <!-----------------------JAVASCRIPT----------->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
