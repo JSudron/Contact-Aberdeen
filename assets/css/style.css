@@ -112,7 +112,7 @@ form {
 
 .header-image {
   display: flex;  
-  background-image: url("/assets/images/bw-audience.jpg");
+  background-image: url("assets/images/bw-audience.jpg");
   height: 100vh;
   width: 100vw;
   background-position: center;
@@ -147,7 +147,7 @@ form {
 
 .gallery-container {
     padding: 0px 0px 25px;
-    overflow: hidden;
+    overflow: hidden; /* Allows navbar to function over carousel */
 }
 
 .fa-chevron-circle-left {
