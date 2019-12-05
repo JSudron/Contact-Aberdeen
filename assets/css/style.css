@@ -112,7 +112,7 @@ form {
 
 .header-image {
   display: flex;  
-  background-image: url("assets/images/bw-audience.jpg");
+  background-image: url("../images/bw-audience.jpg");
   height: 100vh;
   width: 100vw;
   background-position: center;
