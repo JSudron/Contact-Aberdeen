@@ -6,7 +6,7 @@
 
 .block-divider {
     width: 100px;
-    background-color: #FCF5EE;
+    background-color: #FFFFFF;
 }
 
 .nav-brand {
@@ -61,12 +61,12 @@ form {
 }
 
 .nav-brand {
-    color: #FCF5EE;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
 .nav-brand:hover {
-    color: #FF8457;
+    color: #FF5D73;
     text-decoration: none;
     transition: color 0.5s ease-in-out;
     -moz-transition: color 0.5s ease-in-out;
@@ -75,12 +75,12 @@ form {
 }
 
 .nav-link {
-    color: #FCF5EE;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
 .nav-link:hover {
-    color: #FF8457;
+    color: #FF5D73;
     text-decoration: none;
     transition: color 0.5s ease-in-out;
     -moz-transition: color 0.5s ease-in-out;
@@ -90,11 +90,11 @@ form {
 
 .fa-bars {
     font-size: 2rem;
-    color: #FCF5EE;
+    color: #FFFFFF;
 }
 
 .fa-bars:hover {
-    color: #FF8457;
+    color: #FF5D73;
     text-decoration: none;
     transition: color 0.5s ease-in-out;
     -moz-transition: color 0.5s ease-in-out;
@@ -135,7 +135,7 @@ form {
 }
 
 .member-image:hover {
-    background-color: #FF8457;
+    background-color: #FF5D73;
     transition: background-color 0.8s ease-in-out;
     -moz-transition: background-color 0.8s ease-in-out;
     -webkit-transition: background-color 0.8s ease-in-out;
@@ -151,12 +151,12 @@ form {
 }
 
 .fa-chevron-circle-left {
-    color: #FCF5EE;
+    color: #FFFFFF;
     font-size: 30px;
 }
 
 .fa-chevron-circle-right {
-    color: #FCF5EE;
+    color: #FFFFFF;
     font-size: 30px;
 }
 
@@ -169,7 +169,7 @@ form {
 }
 
 .fa-chevron-circle-right:hover {
-    color: #FF8457;
+    color: #FF5D73;
     transition: color 0.5s ease-in-out;
     -moz-transition: color 0.5s ease-in-out;
     -webkit-transition: color 0.5s ease-in-out;
@@ -184,26 +184,26 @@ form {
 }
 
 input[class=form-control]:focus{ 
-    border: #FF8457;
-    box-shadow: 0 0 5px #FF8457;    
+    border: #FF5D73;
+    box-shadow: 0 0 5px #FF5D73;    
     
 }
 
 textarea[class=form-control]:focus{ 
-    border: #FF8457;
-    box-shadow: 0 0 5px #FF8457;    
-    outline: #FF8457; 
+    border: #FF5D73;
+    box-shadow: 0 0 5px #FF5D73;    
+    outline: #FF5D73; 
 }
 
 .btn-secondary {
-    background-color: #FF8457;
-    color: #FCF5EE;
+    background-color: #FF5D73;
+    color: #FFFFFF;
     border: transparent;
 }
 
 .btn-secondary:hover {
-    background-color: #FF8457;
-    color: #1A586C;
+    background-color: #FF5D73;
+    color: #7C7A7A;
     border: transparent;
     transition: color 0.5s ease-in-out;
     -moz-transition: color 0.5s ease-in-out;
@@ -218,7 +218,7 @@ footer {
     min-height: 150px;
     margin: 0;
     background-color: #494949;
-    color: #FCF5EE;
+    color: #FFFFFF;
     opacity: 0.8;
 }
 
@@ -235,7 +235,7 @@ footer {
     font-size: 15px;
     line-height: 7px;
     text-align: center;
-    color: #FCF5EE;
+    color: #FFFFFF;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -243,7 +243,7 @@ footer {
 }
 
 .social-links i:hover {
-    background: #FF8457;
+    background: #FF5D73;
 }   
 
 .address-links a i {
@@ -254,7 +254,7 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #FCF5EE;
+    color: #FFFFFF;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -262,7 +262,7 @@ footer {
 }
 
 .address-links i:hover {
-    background: #FF8457;
+    background: #FF5D73;
 }   
 
 /*-----------------------MEDIA QUERIES */
