@@ -2,8 +2,20 @@
 
 @import url('https://fonts.googleapis.com/css?family=Righteous:100,200,300,400,500,600,700|Source+Sans+Pro&display=swap:100,200,300,400,500,600,700');
 
+/*-----------------------SMOOTH SCROLL */
+/* Smooth scroll code from Slack */
+
 html {
   scroll-behavior: smooth;
+}
+
+/*-----------------------BACKGROUND COLOURS */
+
+.about-container, 
+.gallery-container,
+.bookings-container {
+    background-color: #494949;
+    color: #FFFFFF;
 }
 
 /*-----------------------SPECIAL MARGINS/HEADINGS/TEXT */
@@ -11,6 +23,7 @@ html {
 .block-divider {
     width: 100px;
     background-color: #FFFFFF;
+    opacity: 0.5;
 }
 
 .nav-brand {
@@ -56,7 +69,7 @@ form {
     width: 100vw;
     background-color: #494949;
     border: 0;
-    z-index: 1;
+    z-index: 100;
     opacity: 0.8;
 }
 
@@ -221,9 +234,9 @@ textarea[class=form-control]:focus{
 footer {
     min-height: 150px;
     margin: 0;
-    background-color: #494949;
+    background-color: #7C7A7A;
     color: #FFFFFF;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 #footer-info {
@@ -279,10 +292,18 @@ footer {
 }
 
 @media (min-width: 992px) {
-    .about-container {
-        margin-bottom: 100px;
+    .about-container,
+    .gallery-container {
+        height: 100vh;
     }
 }
+
+@media (min-width: 992px) {
+    .bookings-container {
+        height: 80vh;
+    }
+}
+
 
 @media (min-width:321px), (max-width:768px) {
     .member-image {
