@@ -2,11 +2,12 @@
 
 Project One: User Centric Frontend Development
 
-This is a website created to promote the Contact club night and Aberdeen DJ; Jonny Kennedy. The site includes information about Contact & DJ Jonny Kennedy along with details about previous events
-run by Contact and links to social media sites.
+This is a website created to promote the Contact club night and Aberdeen DJ; Jonny Kennedy. 
+The site includes information about Contact & DJ Jonny Kennedy along with details about previous events run by Contact and links to
+social media sites.
 
 ## Demo
-A live demo can be found [here] (github address)
+A live demo can be found [here] (https://jsudron.github.io/Contact-Aberdeen/)
 
 ## UX
  
@@ -21,21 +22,27 @@ Aimed to keep the design minimal but still showcase the artwork I was provided b
 
 ### Scope 
 
-Contact Aberdeen has run club nights before with DJ Jonny Kennedy heading these up. However, having been out of the scene for some time we wanted to give club owners a glimpse into what Contact
-club nights are all about. We also wanted to use the site as a platform for DJs to get in touch should they want to perform at a Contact club night. Therefore providing an easy means of contact
-on the site was a must.
+Contact Aberdeen has run club nights before with DJ Jonny Kennedy heading these up. However, having been out of the scene for some time we wanted
+to give club owners a glimpse into what Contact club nights are all about. We also wanted to use the site as a platform for DJs to get in touch
+should they want to perform at a Contact club night. Therefore providing an easy means of contact on the site was a must.
 
 ### Stucture
 
-The site structure is fairly straightforward with easy navigation between the pages. There are links to social media sites which open up in a separate tab.
+The site structure is fairly straightforward with a fixed navbar allowing for easy access to each section.
+Also provided a footer with access to Facebook, Mixcloud & Soundcloud.
 
 ### Skeleton
 
-Put links to wireframes
+Wireframes were made for 2 different navigation styles, the scrolling option was used. 
+Further design changes were made through the process.
+
+[Wireframe - Scrolling] (assets/wireframes/wireframe1.jpg)
+[Wireframe - Seperate Pages] (assets/wireframes/wireframe2.jpg)
 
 ### Surface
 
-Went for a dark look with contrasting bright colours to mimic the colours associated with the club night.
+Went for a dark, minimal colour scheme taken from Coolors, a free pallete generator website.
+This included black, white, greys (outer space & trolley grey) & fiery rose, which adds a nice contrast on buttons & hover effects.
 
 ## Technologies
 1. HTML
@@ -45,18 +52,16 @@ Went for a dark look with contrasting bright colours to mimic the colours associ
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+The use of the scrollSpy feature in Bootstrap was implemented. A smooth scrolling effect was then added to this in CSS.
+Added JavaScript code to make the navbar collapse when an anchor link is closed.
+A carousel was used for the gallery as this was the most effective way show off the large number of photos on all screen sizes.
 
 ### Features Left to Implement
-- Another feature idea
+
+Eventually, I'd like to add a 'music' section which would have Soundcloud music embeded directly to the site.
+Would also be useful to add in an 'upcoming events' section once new bookings are made, this would include flyers with relevant info & links to
+buy tickets.
+
 
 ## Testing
 
@@ -80,14 +85,8 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+The site is hosted on GitHub pages, deployed directly using the master branch. The deplyed site updates automatically when new commits are made and
+then pushed through on GitPod. The landing page is named 'index.html' in order to deploy correctly.
 
 ## Credits
 
@@ -97,10 +96,36 @@ All content in the 'About' section was written by myself.
 
 ### Media
 
-The photos used in this site were created and obtained from the client Jonny Kennedy.
+The header image 'bw-audience.jpg' was taken from Pexels stock image library,which added the greyscale filter to on Photoshop.
+The remaining photos used in this site were created and obtained from the client Jonny Kennedy.
 
 ### Acknowledgements
 
-I received inspiration for this project from X
+The majority of code was learnt through Code Institute tutorials & reading through 'HTML & CSS design and build websites' by Jon Duckett.
+However, specific sections have parts of code were learnt from various sites, which was then amended by myself to obtain the look & feel 
+I was after. Apart from the JavaScript code, no code was copied and pasted over. An understanding of the code was learnt before code was then typed 
+up with significant changes made by myself. 
+
+- Navbar Section -
+Code learnt from navbar tutorials at https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/ & Code Institute tutorials.
+Also took the navbar collapse JavaScript code from https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click
+
+- Header section -
+Code learnt from Code Institute tutorials & 'HTML & CSS design and build websites' by Jon Duckett.
+
+- About section - 
+Code learnt from Code Institute tutorials and https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp
+
+- Gallery section -
+Code learnt from carousel tutorials at https://getbootstrap.com/docs/4.0/components/carousel/
+
+- Bookings section -
+Code learnt from Code Institute tutorials.
+
+- Footer section - 
+Code learnt from Code Institute tutorials.
+
+- Smooth scroll -
+Code learnt from Slack users.
 
 #### This is for educational use
