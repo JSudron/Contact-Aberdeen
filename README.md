@@ -7,7 +7,7 @@ The site includes information about Contact & DJ Jonny Kennedy along with detail
 social media sites.
 
 ## Demo
-A live demo can be found [here] (https://jsudron.github.io/Contact-Aberdeen/)
+A live demo can be found [here](https://jsudron.github.io/Contact-Aberdeen/).
 
 ## UX
  
@@ -36,12 +36,12 @@ Also provided a footer with access to Facebook, Mixcloud & Soundcloud.
 Wireframes were made for 2 different navigation styles, the scrolling option was used. 
 Further design changes were made through the process.
 
-[Wireframe - Scrolling] (assets/wireframes/wireframe1.jpg)
-[Wireframe - Seperate Pages] (assets/wireframes/wireframe2.jpg)
+[Wireframe - Scrolling](https://github.com/JSudron/Contact-Aberdeen/blob/6fbd61f474b3f65863770269bf869aa0a0e293b5/assets/wireframes/wireframe1.jpg)
+[Wireframe - Seperate Pages](https://github.com/JSudron/Contact-Aberdeen/blob/6fbd61f474b3f65863770269bf869aa0a0e293b5/assets/wireframes/wireframe2.jpg)
 
 ### Surface
 
-Went for a dark, minimal colour scheme taken from Coolors, a free pallete generator website.
+Went for a dark, minimal colour scheme taken from [Coolors](https://coolors.co/000000-ffffff-494949-7c7a7a-ff5d73), a free pallete generator website.
 This included black, white, greys (outer space & trolley grey) & fiery rose, which adds a nice contrast on buttons & hover effects.
 
 ## Technologies
@@ -96,7 +96,7 @@ All content in the 'About' section was written by myself.
 
 ### Media
 
-The header image 'bw-audience.jpg' was taken from Pexels stock image library,which added the greyscale filter to on Photoshop.
+The header image 'bw-audience.jpg' was taken from [Pexels](https://www.pexels.com/) stock image library,which added the greyscale filter to on Photoshop.
 The remaining photos used in this site were created and obtained from the client Jonny Kennedy.
 
 ### Acknowledgements
@@ -107,17 +107,17 @@ I was after. Apart from the JavaScript code, no code was copied and pasted over.
 up with significant changes made by myself. 
 
 - Navbar Section -
-Code learnt from navbar tutorials at https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/ & Code Institute tutorials.
-Also took the navbar collapse JavaScript code from https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click
+Code learnt from navbar tutorials at [Mdbootstrap](https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/) & Code Institute tutorials).
+Also took the navbar collapse JavaScript code from [Stackoverflow](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click).
 
 - Header section -
 Code learnt from Code Institute tutorials & 'HTML & CSS design and build websites' by Jon Duckett.
 
 - About section - 
-Code learnt from Code Institute tutorials and https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp
+Code learnt from Code Institute tutorials and [W3schools](https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp).
 
 - Gallery section -
-Code learnt from carousel tutorials at https://getbootstrap.com/docs/4.0/components/carousel/
+Code learnt from carousel tutorials at [GetBootstrap](https://getbootstrap.com/docs/4.0/components/carousel/).
 
 - Bookings section -
 Code learnt from Code Institute tutorials.
