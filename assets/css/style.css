@@ -20,12 +20,14 @@ html {
 
 /*-----------------------SPECIAL MARGINS/HEADINGS/TEXT */
 
-.block-divider {
-    width: 100px;
+.line-divider {
+    align-items: center;
+    display: flex;
+    height: 2px;
+    width: 70px;
+    margin: 0 auto;
     background-color: #FFFFFF;
-    opacity: 0.5;
 }
-
 .nav-brand {
     font-family: 'Righteous', sans-serif;
     font-size: 2rem;
@@ -35,27 +37,22 @@ html {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1 {
+.section-title {
     font-family: 'Righteous', sans-serif;
-    margin-top: 50px;
 }
 
-h5 {
+.label {
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
 }
 
-h6 {
+.footer-header {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
 }
 
-p {
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-form {
+.small-text {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -64,7 +61,6 @@ form {
 
 .navbar {
     position: fixed;
-    overflow: hidden;
     margin-bottom: 0;
     width: 100vw;
     background-color: #494949;
@@ -77,52 +73,22 @@ form {
     border: 0;
 }
 
-.nav-brand {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-.nav-brand:hover {
-    color: #FF5D73;
-    text-decoration: none;
-    transition: color 0.5s ease-in-out;
-    -moz-transition: color 0.5s ease-in-out;
-    -webkit-transition: color 0.5s ease-in-out;
-    -o-transition: color 0.5s ease-in-out;
-}
-
-.nav-link {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-.nav-link:hover {
-    color: #FF5D73;
-    text-decoration: none;
-    transition: color 0.5s ease-in-out;
-    -moz-transition: color 0.5s ease-in-out;
-    -webkit-transition: color 0.5s ease-in-out;
-    -o-transition: color 0.5s ease-in-out;
-}
-
-.fa-bars {
-    font-size: 2rem;
-    color: #FFFFFF;
-}
-
-.fa-bars:hover {
-    color: #FF5D73;
-    text-decoration: none;
-    transition: color 0.5s ease-in-out;
-    -moz-transition: color 0.5s ease-in-out;
-    -webkit-transition: color 0.5s ease-in-out;
-    -o-transition: color 0.5s ease-in-out;
-}
-
 .navbar-toggler:focus, .navbar-toggler:active {
     outline: none;
     box-shadow: none;
   }
+
+.navbar-links {
+    color: #FFFFFF;
+}
+
+.navbar-links:hover {
+    color: #FF5D73;
+    transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -webkit-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
+}
 
 /*-----------------------HOME */
 /* Code learnt from tutorials & 'HTML & CSS design and build websites" by Jon Duckett */
@@ -131,7 +97,6 @@ form {
   display: flex;  
   background-image: url("../images/bw-audience.jpg");
   height: 100vh;
-  width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -151,7 +116,7 @@ form {
     height: auto;
 }
 
-.member-image:hover {
+.about-hover:hover {
     background-color: #FF5D73;
     transition: background-color 0.8s ease-in-out;
     -moz-transition: background-color 0.8s ease-in-out;
@@ -164,28 +129,14 @@ form {
 
 .gallery-container {
     padding: 0px 0px 25px;
-    overflow: hidden; /* Allows navbar to function over carousel */
 }
 
-.fa-chevron-circle-left {
+.carousel-icon {
     color: #FFFFFF;
     font-size: 30px;
 }
 
-.fa-chevron-circle-right {
-    color: #FFFFFF;
-    font-size: 30px;
-}
-
-.fa-chevron-circle-left:hover {
-    color: #FF5D73;
-    transition: color 0.5s ease-in-out;
-    -moz-transition: color 0.5s ease-in-out;
-    -webkit-transition: color 0.5s ease-in-out;
-    -o-transition: color 0.5s ease-in-out;
-}
-
-.fa-chevron-circle-right:hover {
+.carousel-icon:hover {
     color: #FF5D73;
     transition: color 0.5s ease-in-out;
     -moz-transition: color 0.5s ease-in-out;
@@ -244,7 +195,7 @@ footer {
     text-align: left;
 }
 
-.social-links li a i {
+.icon-border a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
@@ -253,40 +204,21 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.icon-border i:hover {
+    background: #FF5D73;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
-}
-
-.social-links i:hover {
-    background: #FF5D73;
-}   
-
-.address-links a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 30%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #FFFFFF;
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-}
-
-.address-links i:hover {
-    background: #FF5D73;
-}   
+} 
 
 /*-----------------------MEDIA QUERIES */
 /* Code from tutorials but changes to the features made by myself in html & css */
 
 @media (min-width: 992px) {
-    h1 {
+    .section-title {
         font-size: 60px;
     }
 }

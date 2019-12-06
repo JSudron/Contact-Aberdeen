@@ -18,22 +18,22 @@
 <!----Navbar code from mdbootstrap.com & tutorials with changes to the features made by myself in html & css---->
 
 <nav class="navbar">
-    <a class="nav-brand" href="#">Contact</a>
+    <a class="nav-brand navbar-links" href="#">Contact</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Hamburger menu"><span class="hamburger-menu">
-    <i class="fa fa-bars"></i></span></button>
+    <i class="fa fa-bars navbar-links"></i></span></button>
     <div class="collapse navbar-collapse" id="navbar-content">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link navbar-links" href="#home">Home</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+                <a class="nav-link navbar-links" href="#about">About</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#gallery">Gallery<span class="sr-only">(current)</span></a>
+                <a class="nav-link navbar-links" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#bookings">Bookings<span class="sr-only">(current)</span></a>
+                <a class="nav-link navbar-links" href="#bookings">Bookings</a>
             </li>
         </ul>
     </div>
@@ -49,47 +49,50 @@
 <!----Code learnt from w3schools.com & tutorials with changes made by myself---->
 
 <div class="container-fluid text-center about-container" id="about">
-    <h1>ABOUT</h1>
-        <hr class="block-divider">
-        <p><strong>Music for the underground...Clubbing for the counter culture!!!</strong></p>
-            <p>Founded in 2013 by DJ Jonny Kennedy, Contact has provided Aberdeen with incredible house music on a weekly basis.
-               What started as a sole residency for Jonny at the Exodus nightclub has gradually expanded, with the addition three further resident
+    <h1 class="section-title">ABOUT</h1>
+        <div class="line-divider"></div>   
+        <br>
+        <p class="small-text"><strong>Music for the underground...Clubbing for the counter culture!!!</strong></p>
+            <p class="small-text">Founded in 2013 by DJ Jonny Kennedy, Contact has provided Aberdeen with incredible house music on a weekly basis.
+               What started as a sole residency for Jonny at the Exodus nightclub has gradually expanded, with the addition of two further resident
                DJs and moving to a larger venue; UnderDog. With a growing reputation Contact has been able to bring in top guest DJs such as 'Ross From Friends', 'Denis Sulta' and 'Sven Weisemann'
                at the monthly 'Contact Presents' events.</p> 
-            <hr class="block-divider">
-            <p>Having been on a temporary hiatus, the guys are back and ready to provide the Granite City with multiple club nights and take Contact further afield in Scotland.
+            <div class="line-divider"></div>
+            <br>
+            <p class="small-text">Having been on a temporary hiatus, the guys are back and ready to provide the Granite City with multiple club nights and take Contact further afield in Scotland.
                With a number of quality DJs lined up for 2020 including events in Dundee and Glasgow, it's going to be a huge year.</p> 
-            <hr class="block-divider">   
+            <div class="line-divider"></div>
+            <br>
     <div class="row">
         <div class="col-sm-4">
             <br>
-            <h5>Jonny</h5>
+            <h5 class="label">Jonny</h5>
             <a href="#jonny-info" data-toggle="collapse">
-            <img src="assets/images/jonny1.jpg" alt="Jonny Kennedy" class="rounded-circle member-image">
+            <img src="assets/images/jonny1.jpg" alt="Jonny Kennedy" class="rounded-circle about-hover member-image">
             </a>
                 <div class="collapse" id="jonny-info">
-                    <p>DJ Jonny Kennedy - Founder of Contact</p>
-                    <p>Style: House & Disco</p>
-                    <p>Resident with House of House, Rhumba & Let it Bleed</p>
+                    <p class="small-text">DJ Jonny Kennedy - Founder of Contact</p>
+                    <p class="small-text">Style: House & Disco</p>
+                    <p class="small-text">Resident with House of House, Rhumba & Let it Bleed</p>
                 </div>
         </div>
         <div class="col-sm-4">
             <br>
-            <h5>Finn</h5>
+            <h5 class="label">Finn</h5>
             <a href="#finn-info" data-toggle="collapse">
-            <img src="assets/images/finn2.jpg" alt="Finn Munro" class="rounded-circle member-image">
+            <img src="assets/images/finn2.jpg" alt="Finn Munro" class="rounded-circle about-hover member-image">
             </a>
                 <div class="collapse" id="finn-info">
-                    <p>DJ Finnbar - Joined 2016</p>
-                    <p>Style: Deep House</p>
-                    <p>Guest appearances only as based in France</p>
+                    <p class="small-text">DJ Finnbar - Joined 2016</p>
+                    <p class="small-text">Style: Deep House</p>
+                    <p class="small-text">Guest appearances only as based in France</p>
                 </div>
         </div>
         <div class="col-sm-4">
             <br>
-            <h5>Craig</h5>
+            <h5 class="label">Craig</h5>
             <a href="#craig-info" data-toggle="collapse">
-            <img src="assets/images/craig.jpg" alt="Craig Stevenson" class="rounded-circle member-image">
+            <img src="assets/images/craig.jpg" alt="Craig Stevenson" class="rounded-circle about-hover member-image">
             </a>
                 <div class="collapse" id="craig-info">
                     <p>DJ Creggles - Joined 2017</p>
@@ -104,8 +107,9 @@
 <!----Carousel code from getbootstrap.com with changes to the features made by myself in html & css---->
 
 <div class="container-fluid text-center gallery-container" id="gallery">
-    <h1>GALLERY</h1>
-        <hr class="block-divider">
+    <h1 class="section-title">GALLERY</h1>
+        <div class="line-divider"></div>
+        <br>
     <div class="carousel slider" id="carousel-slider" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -137,11 +141,11 @@
         </div>
     </div>
     <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
-        <span><i class="fa fa-chevron-circle-left fa-lg" aria-hidden="true"></i></span>
+        <span><i class="fa fa-chevron-circle-left fa-lg carousel-icon" aria-hidden="true"></i></span>
         <span class="sr-only">Previous</span>
     </a>
     <a class="carousel-control-next" href="#carousel-slider" role="button" data-slide="next">
-        <span> <i class="fa fa-chevron-circle-right fa-lg" aria-hidden="true"></i></span>
+        <span> <i class="fa fa-chevron-circle-right fa-lg carousel-icon" aria-hidden="true"></i></span>
         <span class="sr-only">Next</span>
     </a>
     </div>
@@ -151,12 +155,14 @@
 <!----Code from tutorials but changes to the features made by myself in html & css---->
 
 <div class="container-fluid text-center bookings-container" id="bookings">
-    <h1>BOOKINGS</h1>
-        <hr class="block-divider">
-        <h5>Want to make a booking?<br>Interested in joining us?</h5>
-        <hr class="block-divider">
+    <h1 class="section-title">BOOKINGS</h1>
+    <div class="line-divider"></div>
+    <br>
+        <h5 class="label">Want to make a booking?<br>Interested in joining us?</h5>
+        <div class="line-divider"></div>
+        <br>
     <div class="center-form">
-        <form>
+        <form class="small-text">
             <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required /><br>
             <input type="email" name="email" id="emailaddress" class="form-control" placeholder="E-mail" required /><br>
             <input type="phone" name="phone" id="phonenumber" class="form-control" placeholder="Phone Number" required /><br>
@@ -175,8 +181,8 @@
 <footer class="container-fluid">
     <div id="footer-info" class="row">
         <div class="col-sm-4">
-            <h6>EXODUS</h6>
-            <p class="inline-block address-links">
+            <h6 class="footer-header">EXODUS</h6>
+            <p class="inline-block small-text address-links icon-border">
                 Thursdays 11pm-1am<br>
                 Belmont St, Aberdeen AB10 1JS
                 <a target="_blank" href="https://www.google.com/maps/place/Exodus/@57.1476573,-2.1025554,15z/data=!4m2!3m1!1s0x0:0x588f7aa28428ceeb?sa=X&ved=2ahUKEwjA3MTi2p7mAhX4SBUIHfxzCdgQ_BIwCnoECA4QCA">
@@ -186,8 +192,8 @@
             </p>
         </div>
         <div class="col-sm-4">
-            <h6 cl>DOGHOUSE</h6>
-            <p class="inline-block address-links">
+            <h6 class="footer-header">DOGHOUSE</h6>
+            <p class="inline-block small-text address-links icon-border">
                 Saturday 11pm-3am<br>
                 5-9 Union St, Aberdeen AB11 5BU
                 <a target="_blank" href="https://www.google.com/maps/place/BrewDog+Castlegate/@57.1475762,-2.0944948,15z/data=!4m2!3m1!1s0x0:0x32b5b41c66e29872?sa=X&ved=2ahUKEwjB2KvM2p7mAhWDsHEKHTgOA7oQ_BIwCnoECBoQCA">
@@ -197,8 +203,8 @@
             </p>
         </div>
         <div class="col-sm-4">
-            <h6>SOCIAL</h6>
-            <ul class="list-inline social-links">
+            <h6 class="footer-header">SOCIAL</h6>
+            <ul class="list-inline social-links icon-border">
                 <li class="list-inline-item">
                     <a target="_blank" href="https://www.facebook.com/Contact-Aberdeen-520788754607963/">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
