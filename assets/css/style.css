@@ -223,29 +223,4 @@ footer {
     }
 }
 
-@media (min-width: 992px) {
-    .about-container,
-    .gallery-container {
-        height: 100vh;
-    }
-}
-
-@media (min-width: 992px) {
-    .bookings-container {
-        height: 80vh;
-        padding-top: 100px;
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-}
-
-
-@media (min-width:321px), (max-width:768px) {
-    .member-image {
-        border: 15px solid transparent;
-        margin-bottom: 30px;
-        width: 100%;
-        height: auto;
-    }
-}
 
