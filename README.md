@@ -13,8 +13,11 @@ A live demo can be found [here](https://jsudron.github.io/Contact-Aberdeen/).
  
 ### User stories
 
-As a club owner I expect to find out why I'd want to host a club night with Contact.
-As a DJ I expect to find out why I'd want to perform at a Contact club night.
+As a member of Contact I expect to be able to have a site which is easily expanded and can be updated with any relevant information. The site must be functional but also stylish, 
+whilst showcasing what the club night is all about.
+As a club owner I expect to find out why I'd want to host a club night with Contact and be able to easily contact them.
+As a DJ I expect to find out why I'd want to perform at a Contact club night and be able to easily contact them.
+As a club-goer I expect to be able to find out about what the club night is all about and how to find them.
 
 ### Strategy
 
@@ -29,20 +32,21 @@ should they want to perform at a Contact club night. Therefore providing an easy
 ### Stucture
 
 The site structure is fairly straightforward with a fixed navbar allowing for easy access to each section.
-Also provided a footer with access to Facebook, Mixcloud & Soundcloud.
+Also provided a footer with access to Facebook, Mixcloud & Soundcloud along with Google map links to the venues.
 
 ### Skeleton
 
 Wireframes were made for 2 different navigation styles, the scrolling option was used. 
 Further design changes were made through the process.
 
-[Wireframe - Scrolling](https://github.com/JSudron/Contact-Aberdeen/blob/6fbd61f474b3f65863770269bf869aa0a0e293b5/assets/wireframes/wireframe1.jpg)
-[Wireframe - Seperate Pages](https://github.com/JSudron/Contact-Aberdeen/blob/6fbd61f474b3f65863770269bf869aa0a0e293b5/assets/wireframes/wireframe2.jpg)
 
 ### Surface
 
 Went for a dark, minimal colour scheme taken from [Coolors](https://coolors.co/000000-ffffff-494949-7c7a7a-ff5d73), a free pallete generator website.
 This included black, white, greys (outer space & trolley grey) & fiery rose, which adds a nice contrast on buttons & hover effects.
+A mobile first design process was implemented to ensure the site looks & functions as good as possible on a wide range of devices.
+The 'about' section has been tailored to small, medium and large devices in order to keep the images at a good size whilst still looking effective.
+The navbar was kept collapsible among all devices in order to keep the minimal look, however this may be changed in the future for desktop sites.
 
 ## Technologies
 1. HTML
@@ -65,28 +69,43 @@ buy tickets.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### User stories
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Below details how the user stories were provided with the intended outcomes to showcase the 'Contact' club night.
+For members of Contact:
+The simple navbar & scrollSpy function provides an easy way to navigate the site without having to go back and forth through webpages. The design is minimal, in keeping with the style used at club
+nights. Sections can easily be added to the site & the responsive design means changes can look great on a range of devices. The 'About' section has a profile of each member, along with information
+and futher images of the event in the gallery. The venue locations are detailed, along with links & their are links to all of the relevant social media spaces to provide further exposure to the 
+club night.
+For club owners:
+Club owners can find out details of what type of music is played and the concept of the club night in the 'About' section. The 'Gallery' section is also a great way to entice them to book by showing
+a range of visuals of the events. Should they want to book 'Contact' the 'Bookings' section is an easy way to get in touch. The footer also provides links to social media which includes Mixcloud &
+Soundcloud links so they can have a listen to the type of music played at events. 
+For prospective DJs:
+The website has an easy to using contact form for getting in touch if they shoudl want to play at the club night. The footer provides the dates & times of events, whilst the 'About' sections
+explains the type of music played at the club nights.
+For club-goers:
+The website explains the type of music played whilst also providing a 'Find Us' section which displays a map of the main venue. The footer provides further addresses, club times and 
+a Google maps link showing the venues. The 'Gallery' section also shows punters what to expect on the night.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+### Functionality
+The contact/booking form gives error notifications when typing in an invalid e-mail address.
+The 'required' attribute also alerts the user if a field has not been entered on the form when clicking submit.
+All fields must be filled in for the form to submit correctly.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+The scrollSpy links all work with a smooth animation.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+All links to other webpages e.g. social media links have been tested. They all open using 'target="_blank" which opens the link in a new tab on the browser.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The site was tested across multiple browsers (Chrome, Safari, Internet Explorer, Firefox & CM Browser) and on multiple devices, using [Responsinator](http://www.responsinator.com/).
+It was also directly tested on an Android Phone, iPhone, iPad, Macbook and PC. No issues were found.
 
 ## Deployment
 
 The site is hosted on GitHub pages, deployed directly using the master branch. The deplyed site updates automatically when new commits are made and
 then pushed through on GitPod. The landing page is named 'index.html' in order to deploy correctly.
+To run locally, you can clone this repository directly into the editor of your choice by pasting 'git clone https://github.com/JSudron/Contact-Aberdeen.git' into the terminal.
+To cut ties with this GitHub repository, type 'git remote rm origin' into the terminal.
 
 ## Credits
 
@@ -97,14 +116,12 @@ All content in the 'About' section was written by myself.
 ### Media
 
 The header image 'bw-audience.jpg' was taken from [Pexels](https://www.pexels.com/) stock image library,which added the greyscale filter to on Photoshop.
+The image 'location-image' was a screenshot from Google maps.
 The remaining photos used in this site were created and obtained from the client Jonny Kennedy.
 
 ### Acknowledgements
 
-The majority of code was learnt through Code Institute tutorials & reading through 'HTML & CSS design and build websites' by Jon Duckett.
-However, specific sections have parts of code were learnt from various sites, which was then amended by myself to obtain the look & feel 
-I was after. Apart from the JavaScript code, no code was copied and pasted over. An understanding of the code was learnt before code was then typed 
-up with significant changes made by myself. 
+Parts of code were learnt from various sites, which was then amended by myself to obtain the look & feel I was after. 
 
 - Navbar Section -
 Code learnt from navbar tutorials at [Mdbootstrap](https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/) & Code Institute tutorials).

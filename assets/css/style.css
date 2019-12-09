@@ -82,6 +82,7 @@ html {
 .navbar-links {
     color: #FFFFFF;
     text-decoration: none;
+    text-align: center;
 }
 
 .navbar-links:hover {
