@@ -81,10 +81,12 @@ html {
 
 .navbar-links {
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .navbar-links:hover {
     color: #FF5D73;
+    text-decoration: none;
     transition: color 0.5s ease-in-out;
     -moz-transition: color 0.5s ease-in-out;
     -webkit-transition: color 0.5s ease-in-out;
@@ -149,7 +151,7 @@ html {
 /* Code from tutorials but changes to the features made by myself in html & css */
 
 .bookings-container {
-    padding: 20px 25px;
+    padding: 40px;
 }
 
 input[class=form-control]:focus{ 
@@ -194,6 +196,7 @@ textarea[class=form-control]:focus{
     padding: 20px;
     border-radius: 25px;
     background-color: #FF5D73;
+    opacity: 0.9;
 }
 
 /*-----------------------FOOTER */
