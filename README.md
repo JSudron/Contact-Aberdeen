@@ -36,9 +36,8 @@ Also provided a footer with access to Facebook, Mixcloud & Soundcloud along with
 
 ### Skeleton
 
-Wireframes were made for 2 different navigation styles, the scrolling option was used. 
-Further design changes were made through the process.
-
+Wireframe - Home & About Sections [Wireframe](https://github.com/JSudron/Contact-Aberdeen/blob/df4afe66f521cf740b45d089ed0efb30b2275765/assets/wireframes/Wireframes-part%201.jpg)
+Wireframe - Gallery, Bookings & Location Sections [Wireframe](https://github.com/JSudron/Contact-Aberdeen/blob/df4afe66f521cf740b45d089ed0efb30b2275765/assets/wireframes/Wireframes-part%202.jpg)
 
 ### Surface
 
