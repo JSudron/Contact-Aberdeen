@@ -190,17 +190,6 @@ textarea[class=form-control]:focus{
     padding-bottom: 20px;
 }
 
-.map-image {
-    position: relative;
-    height: auto;
-    width: 90vw;
-    margin: 10px;
-    padding: 20px;
-    border-radius: 25px;
-    background-color: #FF5D73;
-    opacity: 0.9;
-}
-
 /*-----------------------FOOTER */
 /* Code from tutorials but changes to the features made by myself in html & css */
 

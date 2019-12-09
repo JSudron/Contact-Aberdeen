@@ -58,6 +58,7 @@ The navbar was kept collapsible among all devices in order to keep the minimal l
 The use of the scrollSpy feature in Bootstrap was implemented. A smooth scrolling effect was then added to this in CSS.
 Added JavaScript code to make the navbar collapse when an anchor link is closed.
 A carousel was used for the gallery as this was the most effective way show off the large number of photos on all screen sizes.
+Utilised an embeded Google map of the venue.
 
 ### Features Left to Implement
 
@@ -84,7 +85,7 @@ For prospective DJs:
 The website has an easy to using contact form for getting in touch if they shoudl want to play at the club night. The footer provides the dates & times of events, whilst the 'About' sections
 explains the type of music played at the club nights.
 For club-goers:
-The website explains the type of music played whilst also providing a 'Find Us' section which displays a map of the main venue. The footer provides further addresses, club times and 
+The website explains the type of music played whilst also providing a 'Find Us' section which displays an embeded map of the main venue. The footer provides further addresses, club times and 
 a Google maps link showing the venues. The 'Gallery' section also shows punters what to expect on the night.
 
 ### Functionality
@@ -117,7 +118,6 @@ All content in the 'About' section was written by myself.
 ### Media
 
 The header image 'bw-audience.jpg' was taken from [Pexels](https://www.pexels.com/) stock image library,which added the greyscale filter to on Photoshop.
-The image 'location-image' was a screenshot from Google maps.
 The remaining photos used in this site were created and obtained from the client Jonny Kennedy.
 
 ### Acknowledgements
