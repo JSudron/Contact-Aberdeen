@@ -36,8 +36,8 @@ Also provided a footer with access to Facebook, Mixcloud & Soundcloud along with
 
 ### Skeleton
 
-Wireframe - Home & About Sections [Wireframe](https://github.com/JSudron/Contact-Aberdeen/blob/master/assets/wireframes/Wireframes-part%201.jpg)--
-Wireframe - Gallery, Bookings & Location Sections [Wireframe](https://github.com/JSudron/Contact-Aberdeen/blob/master/assets/wireframes/Wireframes-part%202.jpg)--
+Wireframe - Home & About Sections [Wireframe](https://github.com/JSudron/Contact-Aberdeen/blob/master/assets/wireframes/Wireframes-part%201.jpg)
+- Wireframe - Gallery, Bookings & Location Sections [Wireframe](https://github.com/JSudron/Contact-Aberdeen/blob/master/assets/wireframes/Wireframes-part%202.jpg)
 
 ### Surface
 
@@ -95,6 +95,8 @@ All fields must be filled in for the form to submit correctly.
 The scrollSpy links all work with a smooth animation.
 
 All links to other webpages e.g. social media links have been tested. They all open using 'target="_blank" which opens the link in a new tab on the browser.
+
+The code was put through [W3C](https://validator.w3.org/) a markup validation service used to check code.
 
 The site was tested across multiple browsers (Chrome, Safari, Internet Explorer, Firefox & CM Browser) and on multiple devices, using [Responsinator](http://www.responsinator.com/).
 It was also directly tested on an Android Phone, iPhone, iPad, Macbook and PC. No issues were found.
