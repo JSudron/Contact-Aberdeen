@@ -36,8 +36,8 @@ Also provided a footer with access to Facebook, Mixcloud & Soundcloud along with
 
 ### Skeleton
 
-Wireframe - Home & About Sections [Wireframe](https://github.com/JSudron/Contact-Aberdeen/blob/df4afe66f521cf740b45d089ed0efb30b2275765/assets/wireframes/Wireframes-part%201.jpg)
-Wireframe - Gallery, Bookings & Location Sections [Wireframe](https://github.com/JSudron/Contact-Aberdeen/blob/df4afe66f521cf740b45d089ed0efb30b2275765/assets/wireframes/Wireframes-part%202.jpg)
+Wireframe - Home & About Sections [Wireframe](https://github.com/JSudron/Contact-Aberdeen/blob/master/assets/wireframes/Wireframes-part%201.jpg)--
+Wireframe - Gallery, Bookings & Location Sections [Wireframe](https://github.com/JSudron/Contact-Aberdeen/blob/master/assets/wireframes/Wireframes-part%202.jpg)--
 
 ### Surface
 
