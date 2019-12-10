@@ -14,6 +14,7 @@ html {
 .about-container, 
 .gallery-container,
 .bookings-container,
+.music-container,
 .location-container {
     background-color: #494949;
     color: #FFFFFF;
@@ -40,7 +41,7 @@ html {
 
 .section-title {
     font-family: 'Righteous', sans-serif;
-    padding-top: 48px; /*---ScrollSpy navigation was previously blocking the headings with navbar---*/
+    padding-top: 50px; /*---ScrollSpy navigation was previously blocking the headings with navbar---*/
 }
 
 .label {
@@ -147,6 +148,18 @@ html {
     -moz-transition: color 0.5s ease-in-out;
     -webkit-transition: color 0.5s ease-in-out;
     -o-transition: color 0.5s ease-in-out;
+}
+
+/*-----------------------MUSIC */
+/* Code from stackoverflow.com but changes to the features made by myself in html & css */
+
+.soundcloud {
+    height: 50vh;
+    width: 40vw;
+}
+
+.iframe-divider {
+    width: 20px;
 }
 
 /*-----------------------BOOKINGS */

@@ -46,6 +46,7 @@ This included black, white, greys (outer space & trolley grey) & fiery rose, whi
 A mobile first design process was implemented to ensure the site looks & functions as good as possible on a wide range of devices.
 The 'about' section has been tailored to small, medium and large devices in order to keep the images at a good size whilst still looking effective.
 The navbar was kept collapsible among all devices in order to keep the minimal look, however this may be changed in the future for desktop sites.
+As a late addition, the 'music' section was added to give users an idea of what to expect at the club nights. This wasn't included in the wireframes.
 
 ## Technologies
 1. HTML
@@ -58,14 +59,13 @@ The navbar was kept collapsible among all devices in order to keep the minimal l
 The use of the scrollSpy feature in Bootstrap was implemented. A smooth scrolling effect was then added to this in CSS.
 Added JavaScript code to make the navbar collapse when an anchor link is closed.
 A carousel was used for the gallery as this was the most effective way show off the large number of photos on all screen sizes.
-Utilised an embeded Google map of the venue.
+Utilised an embeded Google map of the venue along with Soundcloud embedding.
 
 ### Features Left to Implement
 
-Eventually, I'd like to add a 'music' section which would have Soundcloud music embeded directly to the site.
-Would also be useful to add in an 'upcoming events' section once new bookings are made, this would include flyers with relevant info & links to
+An 'upcoming events' section once new bookings are made, this would include flyers with relevant info & links to
 buy tickets.
-
+Would also like to add videos of Contact events.
 
 ## Testing
 
@@ -75,18 +75,18 @@ Below details how the user stories were provided with the intended outcomes to s
 For members of Contact:
 The simple navbar & scrollSpy function provides an easy way to navigate the site without having to go back and forth through webpages. The design is minimal, in keeping with the style used at club
 nights. Sections can easily be added to the site & the responsive design means changes can look great on a range of devices. The 'About' section has a profile of each member, along with information
-and futher images of the event in the gallery. The venue locations are detailed, along with links & their are links to all of the relevant social media spaces to provide further exposure to the 
-club night.
+and futher images of the event in the gallery. Embeded music also allows further showcasing of the types of music played at Contact. The venue locations are detailed, along with links & their are links to all of the relevant social media spaces to provide further exposure to the 
+club night. 
 For club owners:
 Club owners can find out details of what type of music is played and the concept of the club night in the 'About' section. The 'Gallery' section is also a great way to entice them to book by showing
 a range of visuals of the events. Should they want to book 'Contact' the 'Bookings' section is an easy way to get in touch. The footer also provides links to social media which includes Mixcloud &
-Soundcloud links so they can have a listen to the type of music played at events. 
+Soundcloud links so they can have a listen to the type of music played at events. Embeded music also allows further showcasing of the types of music played at Contact.
 For prospective DJs:
 The website has an easy to using contact form for getting in touch if they shoudl want to play at the club night. The footer provides the dates & times of events, whilst the 'About' sections
-explains the type of music played at the club nights.
+explains the type of music played at the club nights. Embeded music also allows further showcasing of the types of music played at Contact.
 For club-goers:
 The website explains the type of music played whilst also providing a 'Find Us' section which displays an embeded map of the main venue. The footer provides further addresses, club times and 
-a Google maps link showing the venues. The 'Gallery' section also shows punters what to expect on the night.
+a Google maps link showing the venues. The 'Gallery' section also shows punters what to expect on the night. Embeded music also allows further showcasing of the types of music played at Contact.
 
 ### Functionality
 The contact/booking form gives error notifications when typing in an invalid e-mail address.
@@ -98,6 +98,7 @@ The scrollSpy links all work with a smooth animation.
 All links to other webpages e.g. social media links have been tested. They all open using 'target="_blank" which opens the link in a new tab on the browser.
 
 The code was put through [W3C](https://validator.w3.org/) a markup validation service used to check code.
+This found various errors in the form section, this was due to the invalid input tag 'phone', these were all rectified.
 
 The site was tested across multiple browsers (Chrome, Safari, Internet Explorer, Firefox & CM Browser) and on multiple devices, using [Responsinator](http://www.responsinator.com/).
 It was also directly tested on an Android Phone, iPhone, iPad, Macbook and PC. No issues were found.
@@ -119,6 +120,7 @@ All content in the 'About' section was written by myself.
 
 The header image 'bw-audience.jpg' was taken from [Pexels](https://www.pexels.com/) stock image library,which added the greyscale filter to on Photoshop.
 The remaining photos used in this site were created and obtained from the client Jonny Kennedy.
+Soundcloud music was also obtained from the client Jonny Kennedy.
 
 ### Acknowledgements
 
@@ -137,8 +139,14 @@ Code learnt from Code Institute tutorials and [W3schools](https://www.w3schools.
 - Gallery section -
 Code learnt from carousel tutorials at [GetBootstrap](https://getbootstrap.com/docs/4.0/components/carousel/).
 
+- Music section -
+Code learnt from [Stackoverflow](https://stackoverflow.com/questions/23737427/how-to-put-two-iframes-side-by-side).
+
 - Bookings section -
 Code learnt from Code Institute tutorials.
+
+- Location section -
+Code learnt from Slack
 
 - Footer section - 
 Code learnt from Code Institute tutorials.
