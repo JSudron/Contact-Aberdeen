@@ -41,7 +41,7 @@ html {
 
 .section-title {
     font-family: 'Righteous', sans-serif;
-    padding-top: 50px; /*---ScrollSpy navigation was previously blocking the headings with navbar---*/
+    padding-top: 55px; /*---ScrollSpy navigation was previously blocking the headings with navbar---*/
 }
 
 .label {
