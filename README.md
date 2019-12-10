@@ -2,6 +2,8 @@
 
 Project One: User Centric Frontend Development
 
+![Screenshot](https://github.com/JSudron/Contact-Aberdeen/blob/7583a5b7d4ef75a80b9ea793650f972e7b065f38/assets/images/resizer.jpg)
+
 This is a website created to promote the Contact club night and Aberdeen DJ; Jonny Kennedy. 
 The site includes information about Contact & DJ Jonny Kennedy along with details about previous events run by Contact and links to
 social media sites.
