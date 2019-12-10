@@ -13,11 +13,11 @@ A live demo can be found [here](https://jsudron.github.io/Contact-Aberdeen/).
  
 ### User stories
 
-As a member of Contact I expect to be able to have a site which is easily expanded and can be updated with any relevant information. The site must be functional but also stylish, 
+- As a member of Contact I expect to be able to have a site which is easily expanded and can be updated with any relevant information. The site must be functional but also stylish, 
 whilst showcasing what the club night is all about.
-As a club owner I expect to find out why I'd want to host a club night with Contact and be able to easily contact them.
-As a DJ I expect to find out why I'd want to perform at a Contact club night and be able to easily contact them.
-As a club-goer I expect to be able to find out about what the club night is all about and how to find them.
+- As a club owner I expect to find out why I'd want to host a club night with Contact and be able to easily contact them.
+- As a DJ I expect to find out why I'd want to perform at a Contact club night and be able to easily contact them.
+- As a club-goer I expect to be able to find out about what the club night is all about and how to find them.
 
 ### Strategy
 
