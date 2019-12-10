@@ -1,6 +1,6 @@
 # CONTACT - ABERDEEN
 
-Project One: User Centric Frontend Development
+## Project One: User Centric Frontend Development
 
 ![Screenshot](https://github.com/JSudron/Contact-Aberdeen/blob/7583a5b7d4ef75a80b9ea793650f972e7b065f38/assets/images/resizer.jpg)
 
