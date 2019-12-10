@@ -72,19 +72,19 @@ Would also like to add videos of Contact events.
 ### User stories
 
 Below details how the user stories were provided with the intended outcomes to showcase the 'Contact' club night.
-For members of Contact:
+- For members of Contact -
 The simple navbar & scrollSpy function provides an easy way to navigate the site without having to go back and forth through webpages. The design is minimal, in keeping with the style used at club
 nights. Sections can easily be added to the site & the responsive design means changes can look great on a range of devices. The 'About' section has a profile of each member, along with information
 and futher images of the event in the gallery. Embeded music also allows further showcasing of the types of music played at Contact. The venue locations are detailed, along with links & their are links to all of the relevant social media spaces to provide further exposure to the 
 club night. 
-For club owners:
+- For club owners -
 Club owners can find out details of what type of music is played and the concept of the club night in the 'About' section. The 'Gallery' section is also a great way to entice them to book by showing
 a range of visuals of the events. Should they want to book 'Contact' the 'Bookings' section is an easy way to get in touch. The footer also provides links to social media which includes Mixcloud &
 Soundcloud links so they can have a listen to the type of music played at events. Embeded music also allows further showcasing of the types of music played at Contact.
-For prospective DJs:
+- For prospective DJs -
 The website has an easy to using contact form for getting in touch if they shoudl want to play at the club night. The footer provides the dates & times of events, whilst the 'About' sections
 explains the type of music played at the club nights. Embeded music also allows further showcasing of the types of music played at Contact.
-For club-goers:
+- For club-goers -
 The website explains the type of music played whilst also providing a 'Find Us' section which displays an embeded map of the main venue. The footer provides further addresses, club times and 
 a Google maps link showing the venues. The 'Gallery' section also shows punters what to expect on the night. Embeded music also allows further showcasing of the types of music played at Contact.
 
