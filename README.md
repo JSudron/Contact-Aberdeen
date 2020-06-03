@@ -187,8 +187,6 @@ Both were chosen as for their readability.
 
 ## Deployment
 
-## Deployment
-
 ### Hosting On GitHub
 
 - Log into GitHub.
