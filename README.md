@@ -1,159 +1,259 @@
-# CONTACT - ABERDEEN
-
-## Project One: User Centric Frontend Development
+# CONTACT - ABERDEEN - Project One: User Centric Frontend Development
 
 ![Screenshot](https://github.com/JSudron/Contact-Aberdeen/blob/7583a5b7d4ef75a80b9ea793650f972e7b065f38/assets/images/resizer.jpg)
 
-This is a website created to promote the Contact club night and Aberdeen DJ; Jonny Kennedy. 
-The site includes information about Contact & DJ Jonny Kennedy along with details about previous events run by Contact and links to
-social media sites.
-
-## Demo
 A live demo can be found [here](https://jsudron.github.io/Contact-Aberdeen/).
+
+## Introduction - Project Purpose
+
+For this project I was tasked with creating a website to showcase the frontend coding skills I've learnt. 
+The purpose of this project is to promote a club night, Contact, which was formerly running in Aberdeen. Jonny Kennedy runs the club night along with being a DJ.
+Having gone on hiatus he is now looking to start the club night up in Aberdeen again. A venue has been secured but in order to keep the night running it
+must make a certain amount of money each night. Previously only Facebook was used to advertise but now Contact is looking to utilise a website in order to provide
+a larger online presence to create further advertising along with having a way for users to get in touch should they want to book further events. 
 
 ## UX
  
-### User stories
+### Goals
 
-- As a member of Contact I expect to be able to have a site which is easily expanded and can be updated with any relevant information. The site must be functional but also stylish, 
-whilst showcasing what the club night is all about.
-- As a club owner I expect to find out why I'd want to host a club night with Contact and be able to easily contact them.
-- As a DJ I expect to find out why I'd want to perform at a Contact club night and be able to easily contact them.
-- As a club-goer I expect to be able to find out about what the club night is all about and how to find them.
+To allow users to find out more about the club event Contact & also get in touch should they want to book an event.
 
-### Strategy
+#### Target Audience
 
-Aimed to keep the design minimal but still showcase the artwork I was provided by the client along with being as user-friendly as possible.
+- Users whom speak English as currently this is the only language catered for.
+- Club owners.
+- Fans of dance music.
+- Club go-ers.
+- DJs.
 
-### Scope 
+### User Stories
 
-Contact Aberdeen has run club nights before with DJ Jonny Kennedy heading these up. However, having been out of the scene for some time we wanted
-to give club owners a glimpse into what Contact club nights are all about. We also wanted to use the site as a platform for DJs to get in touch
-should they want to perform at a Contact club night. Therefore providing an easy means of contact on the site was a must.
+#### As the creator of the Contact club night I want to...
 
-### Stucture
+- Have an attractive & fast website so it will keep users engaged.
+- Provide a pleasant user experience so users continue to visit the site.
+- Enable users to easily find out more about Contact & what we offer.
+- Allow users to listen to samples of the kind of music played at our events.
+- In the future be able to advertise & support local artists so that I can appeal to & support my community.
+- Allow users to contact the site should they wish to make a booking, collaborate with us or provide feedback.
+- Be able to easily expand & update the site with further information if necessary.
 
-The site structure is fairly straightforward with a fixed navbar allowing for easy access to each section.
-Also provided a footer with access to Facebook, Mixcloud & Soundcloud along with Google map links to the venues.
+#### As a UX Designer I want to...
 
-### Skeleton
+- Track user behaviour so I can continue to enhance the user's experience.
+- Provide a website which is attractive, yet can easily be modified so the owner can make changes if required.
+- Ensure the functionality of the website provides the results required by the user so they continue to use the site.
+- Provide a means for the user to contact the site owner so further bookings can be made.
+- Provide a means for the user to listen to the kinds of music played at the events.
 
-- Wireframe - Home & About Sections [Wireframe](https://github.com/JSudron/Contact-Aberdeen/blob/master/assets/wireframes/Wireframes-part%201.jpg)
-- Wireframe - Gallery, Bookings & Location Sections [Wireframe](https://github.com/JSudron/Contact-Aberdeen/blob/master/assets/wireframes/Wireframes-part%202.jpg)
+#### As a Club owner I want to...
 
-### Surface
+- Find out more about the club night & DJs.
+- Hear the types of music played at the events.
+- Easily get in touch should I want to book them to play at my nightclub.
 
-Went for a dark, minimal colour scheme taken from [Coolors](https://coolors.co/000000-ffffff-494949-7c7a7a-ff5d73), a free pallete generator website.
-This included black, white, greys (outer space & trolley grey) & fiery rose, which adds a nice contrast on buttons & hover effects.
-A mobile first design process was implemented to ensure the site looks & functions as good as possible on a wide range of devices.
-The 'about' section has been tailored to small, medium and large devices in order to keep the images at a good size whilst still looking effective.
-The navbar was kept collapsible among all devices in order to keep the minimal look, however this may be changed in the future for desktop sites.
-As a late addition, the 'music' section was added to give users an idea of what to expect at the club nights. This wasn't included in the wireframes.
+#### As a Club-goer / Fan of dance music I want to...
 
-## Technologies
-1. HTML
-2. CSS
-3. Bootstrap (4.3.1)
-4. JavaScript
+- Find out more about the club night & DJs.
+- Hear the types of music played at the events.
+- Find out where the events are taking place.
+- Easily get in touch should I have any further enquires or feedback about the club night.
 
-## Features
 
-The use of the scrollSpy feature in Bootstrap was implemented. A smooth scrolling effect was then added to this in CSS.
-Added JavaScript code to make the navbar collapse when an anchor link is closed.
-A carousel was used for the gallery as this was the most effective way show off the large number of photos on all screen sizes.
-Utilised an embeded Google map of the venue along with Soundcloud embedding.
+#### As a DJ I want to...
 
-### Features Left to Implement
+- Find out more about the club night.
+- Hear the types of music played at the events.
+- Easily get in touch should I want to become a part of Contact or collaborate with them at an event.
 
-An 'upcoming events' section once new bookings are made, this would include flyers with relevant info & links to
-buy tickets.
-Would also like to add videos of Contact events.
+### Design
+
+#### Colours
+
+- #ffffff White
+- #000000 Rich Black
+- #494949 Davys Grey
+- #7c7a7a Gray Web
+- #ff6d73 Fiery Rose
+
+The website [Coolors](https://coolors.co/) was used to find an attractive colour scheme which evokes a dark & minimal style.
+Fiery rose was used to add a nice contrast on buttons & hover effects against the darker elements of the site. 
+White text provided the best readability possible.
+The colours are clean & simple & go well with the images & font used. 
+
+#### Fonts
+
+- Righteous & Source Sans Pro
+
+The fonts were found on the site [Google Fonts](https://fonts.google.com/). 
+Righteous was chosen as it has a slightly futuristic yet industrial look to it which goes well with the miminal colour scheme used.
+Source Sans Pro was used as it has similar curves to the Righteous fonts but works better with the smaller text.
+Both were chosen as for their readability.
+
+### Wireframes
+
+- The wireframes display the original concepts for the site, a one page site was eventually used.
+
+- [Home & About](https://github.com/JSudron/Contact-Aberdeen/blob/master/assets/wireframes/Wireframes-part%201.jpg).
+
+- [Gallery, Bookings & Location Sections](https://github.com/JSudron/Contact-Aberdeen/blob/master/assets/wireframes/Wireframes-part%202.jpg).
+
+## Features/Functionality
+
+### Elements Present On Each Page
+
+#### Navigation Bar 
+
+- The Navbar-brand is shown to the left hand side of the navbar.
+- A collapsed navbar was used on desktop & mobile to keep to the minimal look.
+- A hamburger menu link is situated to the right hand side of the navbar.
+
+#### Footer 
+
+- Fixed to the bottom of the page.
+- Provides links to social media.
+- Provides the address of the main club night event venues.
+
+### Main page
+
+#### Smoothscroll
+
+- The site content is on one page.
+- Smoothscroll was used to ensure easy & stylish navigation up & down the page when using the navbar menu links.
+
+#### About
+
+- Provides information about the club night.
+- Has an image of each of the current resident DJs.
+- Images reveal further details once clicked, hover effect was used to show they can be clicked.
+
+#### Gallery
+
+- Image carousel shows photos from previous events.
+- Buttons on either side for scrolling through photos.
+
+#### Music
+
+- Has embeded Soundcloud players from club nught owner Jonny Kennedy.
+
+#### Bookings
+
+- A contact form provides users with a way to get in touch.
+
+#### Location
+
+- A Google map is embeded with a marker showing the club night HQ.
+
+### Features Left To Implement
+
+#### Events
+
+- A section which shows previous event info.
+- Also provides info on upcoming events.
+- Each event would show the event flier image.
+
+#### Newsletter
+
+- Allow customers to subscribe to newsletters via e-mail.
+
+#### Languages
+
+- Allow customers to change the language the site text is shown in.
+
+## Technologies Used
+
+### Languages
+
+- HTML
+- CSS
+
+### Libraries
+
+- Bootstrap
+- FontAwesome
+- Google Fonts
+
+### Tools
+
+- Github/Gitpod - Used to create & deploy website.
+- Adobe Photoshop.
+- Google Chrome Dev Tools.
 
 ## Testing
 
-### User stories
-
-Below details how the user stories were provided with the intended outcomes to showcase the 'Contact' club night.
-- For members of Contact -
-The simple navbar & scrollSpy function provides an easy way to navigate the site without having to go back and forth through webpages. The design is minimal, in keeping with the style used at club
-nights. Sections can easily be added to the site & the responsive design means changes can look great on a range of devices. The 'About' section has a profile of each member, along with information
-and futher images of the event in the gallery. Embeded music also allows further showcasing of the types of music played at Contact. The venue locations are detailed, along with links & their are links to all of the relevant social media spaces to provide further exposure to the 
-club night. 
-- For club owners -
-Club owners can find out details of what type of music is played and the concept of the club night in the 'About' section. The 'Gallery' section is also a great way to entice them to book by showing
-a range of visuals of the events. Should they want to book 'Contact' the 'Bookings' section is an easy way to get in touch. The footer also provides links to social media which includes Mixcloud &
-Soundcloud links so they can have a listen to the type of music played at events. Embeded music also allows further showcasing of the types of music played at Contact.
-- For prospective DJs -
-The website has an easy to using contact form for getting in touch if they shoudl want to play at the club night. The footer provides the dates & times of events, whilst the 'About' sections
-explains the type of music played at the club nights. Embeded music also allows further showcasing of the types of music played at Contact.
-- For club-goers -
-The website explains the type of music played whilst also providing a 'Find Us' section which displays an embeded map of the main venue. The footer provides further addresses, club times and 
-a Google maps link showing the venues. The 'Gallery' section also shows punters what to expect on the night. Embeded music also allows further showcasing of the types of music played at Contact.
-
-### Functionality
-The contact/booking form gives error notifications when typing in an invalid e-mail address.
-The 'required' attribute also alerts the user if a field has not been entered on the form when clicking submit.
-All fields must be filled in for the form to submit correctly.
-
-The scrollSpy links all work with a smooth animation.
-
-All links to other webpages e.g. social media links have been tested. They all open using 'target="_blank" which opens the link in a new tab on the browser.
-
-The code was put through [W3C](https://validator.w3.org/) a markup validation service used to check code.
-This found various errors in the form section, this was due to the invalid input tag 'phone', these were all rectified.
-
-The site was tested across multiple browsers (Chrome, Safari, Internet Explorer, Firefox & CM Browser) and on multiple devices, using [Responsinator](http://www.responsinator.com/).
-It was also directly tested on an Android Phone, iPhone, iPad, Macbook and PC. No issues were found.
+- [Click Here For Testing File](https://github.com/JSudron/Contact-Aberdeen/blob/master/testing/testing.md)
 
 ## Deployment
 
-The site is hosted on GitHub pages, deployed directly using the master branch. The deplyed site updates automatically when new commits are made and
-then pushed through on GitPod. The landing page is named 'index.html' in order to deploy correctly.
-To run locally, you can clone this repository directly into the editor of your choice by pasting 'git clone https://github.com/JSudron/Contact-Aberdeen.git' into the terminal.
-To cut ties with this GitHub repository, type 'git remote rm origin' into the terminal.
+## Deployment
+
+### Hosting On GitHub
+
+- Log into GitHub.
+- Go to settings and scroll down to GitHub Pages section.
+- Select as a source master branch.
+- The page is now automatically refreshed and the project is deployed.
+- To access the project scroll down again to GitHub Pages section and click on the provided link.
+- Link also at top of this Readme file.
+
+### How To Run This Project Locally
+
+- Go to [Contact-Aberdeen](https://github.com/JSudron/Contact-Aberdeen) repository page.
+- Click on "Clone or download" green button.
+- Copy the URL to the repository.
+- Open the terminal in your local IDE.
+- Choose the working directory where you would like to have the cloned repository.
+- Type git clone, and add the URL you copied from Github: git clone https://github.com/JSudron/Contact-Aberdeen.git.
+- Press Enter and your local clone will be created.
 
 ## Credits
 
 ### Content
 
-All content in the 'About' section was written by myself.
+- All written content was created by myself.
 
 ### Media
 
-The header image 'bw-audience.jpg' was taken from [Pexels](https://www.pexels.com/) stock image library,which added the greyscale filter to on Photoshop.
-The remaining photos used in this site were created and obtained from the client Jonny Kennedy.
-Soundcloud music was also obtained from the client Jonny Kennedy.
+#### Images
+
+- The header image 'bw-audience.jpg' was taken from [Pexels](https://www.pexels.com/) stock image library,which added the greyscale filter to on Photoshop.
+- The remaining photos used in this site were created and obtained from the client Jonny Kennedy.
+
+#### Fonts
+
+- Fonts from [Google Fonts](https://fonts.google.com/).
+
+#### Music
+
+- Soundcloud music was also obtained from the client Jonny Kennedy.
 
 ### Acknowledgements
 
+#### Inspiration
+
 Parts of code were learnt from various sites, which was then amended by myself to obtain the look & feel I was after. 
 
-- Navbar Section -
+- Navbar Section
 Code learnt from navbar tutorials at [Mdbootstrap](https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/) & Code Institute tutorials).
 Also took the navbar collapse JavaScript code from [Stackoverflow](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click).
-
-- Header section -
+- Header section
 Code learnt from Code Institute tutorials & 'HTML & CSS design and build websites' by Jon Duckett.
-
-- About section - 
+- About section
 Code learnt from Code Institute tutorials and [W3schools](https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp).
-
-- Gallery section -
+- Gallery section
 Code learnt from carousel tutorials at [GetBootstrap](https://getbootstrap.com/docs/4.0/components/carousel/).
-
 - Music section -
 Code learnt from [Stackoverflow](https://stackoverflow.com/questions/23737427/how-to-put-two-iframes-side-by-side).
-
-- Bookings section -
+- Bookings section 
 Code learnt from Code Institute tutorials.
-
-- Location section -
+- Location section 
 Code learnt from Slack
-
-- Footer section - 
+- Footer section
 Code learnt from Code Institute tutorials.
-
-- Smooth scroll -
+- Smooth scroll
 Code learnt from Slack users.
+- Also huge thanks to my mentor.
+
+### Disclaimer
 
 #### This is for educational use
