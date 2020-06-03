@@ -11,6 +11,8 @@ The purpose of this project is to promote a club night, Contact, which was forme
 Having gone on hiatus he is now looking to start the club night up in Aberdeen again. A venue has been secured but in order to keep the night running it
 must make a certain amount of money each night. Previously only Facebook was used to advertise but now Contact is looking to utilise a website in order to provide
 a larger online presence to create further advertising along with having a way for users to get in touch should they want to book further events. 
+I was approached to create a stylish site which provides easy navigation to the user. The main features required by Contact were providing the users with all the 
+information needed to promote their club night & also to have a contact section so bookings can be made.
 
 ## UX
  
